@@ -53,15 +53,3 @@ class TestJWTAuth:
 
         assert response.status_code == status.HTTP_400_BAD_REQUEST
         assert response.content == b'{"refresh":["This field is required."]}'
-
-# - Test User Access
-#   - User with token
-#       - User with correct role
-#       - User with incorrect role
-#   - User without token
-
-# - Test Admin Access
-#   - Admin with token
-#       - Admin with correct role
-#       - Admin with incorrect role
-#   - Admin without token
