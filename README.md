@@ -16,7 +16,7 @@ Clone o repositório para o seu ambiente local:
 git clone https://github.com/seu-usuario/jwt-test.git
 cd jwt-test
 ```
-A aplicação vai ficar disponivel no endereço [http://0.0.0.0:5001/api/v1/docs/#/](http://0.0.0.0:5001/api/v1/docs/#/)
+A aplicação vai ficar disponivel no endereço [http://0.0.0.0:8000/api/v1/docs/#/](http://0.0.0.0:8000/api/v1/docs/#/)
 
 ### 2. Rodar aplicação no container
 
