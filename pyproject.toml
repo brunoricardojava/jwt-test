@@ -17,3 +17,10 @@ dependencies = [
 
 [tool.pytest.ini_options]
 DJANGO_SETTINGS_MODULE = "core.settings"
+testpaths = ["tests"]
+
+[tool.coverage.run]
+omit = [
+    "tests/*",
+    "*/__init__.py",
+]
