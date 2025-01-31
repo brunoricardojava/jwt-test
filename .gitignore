@@ -1,0 +1,11 @@
+#Python Enviroment
+.pytest_cache/
+.venv/
+
+#vscode
+.vscode/
+
+#Coverage
+htmlcov/
+.coverage
+coverage.xml
