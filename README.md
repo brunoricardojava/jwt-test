@@ -36,7 +36,7 @@ ENDPOINTS:
 
 - [POST] /api/v1/toekn/refresh
 
-### 3. To run the tests, use:
+### 3. Para rodar os testes unitarios, use o comando:
 
 ```bash
 docker compose exec web make test
@@ -46,10 +46,19 @@ docker compose exec web make test
 
 ![image](https://github.com/user-attachments/assets/3f3983e7-c4c8-413e-9493-9f261bfea361)
 
+Pegue o token do user:
+![image](https://github.com/user-attachments/assets/88a36573-9df9-45cb-b6c6-78fc56050dd5)
+
+Copie o acess code e use para autenticar no canto direito da tela no botão "Authorize":
+![image](https://github.com/user-attachments/assets/6a32526d-6743-426f-96b8-972e0cb43cbf)
+
+Autenticado com user, consigo pegar o retorno da api user:
 ![image](https://github.com/user-attachments/assets/1dd460cf-2031-4adc-a40c-8a2d5e83a87d)
 
+Autenticado com user, somos bloqueados ao conteudo da api admin:
 ![image](https://github.com/user-attachments/assets/ce01cd35-1b4c-48aa-b5ae-eaa331f157ee)
 
+Imagens dos testes unitarios verificados do projeto:
 
 ![image](https://github.com/user-attachments/assets/cc1e2607-5f99-4dcf-831a-37141aab9a82)
 
